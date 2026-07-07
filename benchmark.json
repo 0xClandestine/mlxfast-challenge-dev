@@ -11,8 +11,8 @@
     "mlx_models/gemma4/model.py",
     "mlx_models/gemma4/weights.py"
   ],
-  "setupCommand": ["bash", "-lc", "./setup.sh"],
-  "benchmarkCommand": ["bash", "-lc", "./benchmark.sh"],
+  "setupCommand": ["bash", "-c", "./setup.sh"],
+  "benchmarkCommand": ["bash", "-c", "./benchmark.sh"],
   "scorePath": "score.json",
   "runner": {
     "provider": "github-actions",
